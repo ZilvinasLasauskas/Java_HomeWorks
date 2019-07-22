@@ -10,6 +10,7 @@ public class op008 {
             int a = 19;
             int b = 28;
 //        simple arithmetics
+            System.out.println("Skaicius a = " + a +", Skaicius b = " + b);
             int sum = a + b;
             System.out.println("Sum: " + sum);
             int diff = a - b;
@@ -32,7 +33,7 @@ public class op008 {
             System.out.println("Less or equal?: b <= a = " + (b <= a) );
 
 //            bitwise operations
-            int c = 0;
+            int c;
             c = a & b;
             System.out.println("a & b = " + c );
             c = a | b;
@@ -47,6 +48,15 @@ public class op008 {
             System.out.println("a >> 3 = " + c );
             c = a >>> 4;
             System.out.println("a >>> 4 = " + c );
-
+            printBinary(a,8);
+            printBinary(b,8);
         }
+    private static void printBinary(long value, long size) {
+        for (long i = size - 1; i >= 0; i--) {
+            long mask = 1 << i;
+            long result = (mask & value) >> i;
+            System.out.print(result);
+        }
+        System.out.println();
+    }
 }
