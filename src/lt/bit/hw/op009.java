@@ -62,9 +62,9 @@ public class op009 {
         int div = a / b;
         int mult = a * b;
         int rem = a % b;
-        if (c.equals("+")) {
-            System.out.println("Skaiciu suma: " + sum);
-        }
+        //        if (c.equals("+")) {
+        //            System.out.println("Skaiciu suma: " + sum);
+        //        }
         if (c.equals("-")) {
             System.out.println("Skaiciu skrtumas: " + diff);
         }
@@ -76,6 +76,10 @@ public class op009 {
         }
         if (c.equals("%")) {
             System.out.println("Skaiciu dalyba su liekana: " + rem);
+        }
+        switch (c) {
+            case ("+"):
+                System.out.println("Skaiciu suma: " + sum);
         }
     }
 }
