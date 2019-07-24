@@ -7,8 +7,8 @@ public class op008 {
         }
 
         private static void simpleCalculator() {
-            int a = 19;
-            int b = 28;
+            int a = 43;
+            int b = 257;
 //        simple arithmetics
             System.out.println("Skaicius a = " + a +", Skaicius b = " + b);
             int sum = a + b;

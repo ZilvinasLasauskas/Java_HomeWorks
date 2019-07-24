@@ -7,6 +7,7 @@ public class op018 {
         for (char letter = 'a'; letter <= 'z'; letter++) {
             System.out.print(" " + letter + " ");
         }
+        System.out.print("\n");
 
         for (char letterUp = 'A'; letterUp <= 'Z'; letterUp++) {
             System.out.print(" " + letterUp + " ");
