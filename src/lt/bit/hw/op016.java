@@ -1,7 +1,8 @@
 package lt.bit.hw;
 
-//Parašykite programą, kuri skaičiuoja visų lyginių skaičių sumą diapazone nuo 0 iki 1000.
-// Turi būti panaudoti for, while ir do ... while ciklai.
+/*Parašykite programą, kuri skaičiuoja visų lyginių skaičių sumą diapazone nuo 0 iki 1000.
+ Turi būti panaudoti for, while ir do ... while ciklai.
+  */
 
 public class op016 {
     public static void main(String[] args) {

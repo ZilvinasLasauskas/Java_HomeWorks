@@ -1,6 +1,8 @@
 package lt.bit.hw;
 
-//Parašykite programą, kuri išveda į ekraną daugybos lentelę iki 10.
+/*
+Parašykite programą, kuri išveda į ekraną daugybos lentelę iki 10.
+ */
 
 public class op017 {
 
