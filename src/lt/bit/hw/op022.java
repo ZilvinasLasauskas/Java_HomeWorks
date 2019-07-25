@@ -10,10 +10,10 @@ public class op022 {
         String longestString = "";
         int maxLength = 0;
 
-        for (String i : myArray) {
-            if (i.length() > maxLength) {
-                maxLength = i.length();
-                longestString = i;
+        for (int i = 0; myArray.length > i; i++){
+            if (myArray[i].length() > maxLength) {
+                maxLength = myArray[i].length();
+                longestString = myArray[i];
             }
         }
         System.out.println(longestString);
