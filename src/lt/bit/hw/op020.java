@@ -22,7 +22,9 @@ public class op020 {
         }
         System.out.println(Arrays.toString(myArray));
 
-        // sort the array, using the sort method of the Arrays class
+        /* sort the array, using the sort method of the Arrays class
+         */
+
         Arrays.sort(myArray);
         System.out.println(Arrays.toString(myArray));
     }
