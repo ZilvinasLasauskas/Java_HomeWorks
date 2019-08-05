@@ -17,15 +17,15 @@ public class OP_033 {
         }
         System.out.println("Enter the string you search:");
         Scanner scan = new Scanner(System.in);
-        String Word = scan.next();
+        String Words = scan.nextLine();
         int count = 0;
 
         String line = bufread.readLine();
         String str[];
         do {
-            str = line.split(" ");
+            str = line.split(" "+" ");
             for (String abc : str) {
-                if (abc.equals(Word))
+                if (abc.contains(Words))
                     count++;
             }
 
